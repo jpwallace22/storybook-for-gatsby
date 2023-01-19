@@ -24,6 +24,7 @@ export const config = (entries: string[] = [], _options: AddonOptions): string[]
  *
  * {@link https://www.gatsbyjs.com/docs/how-to/testing/visual-testing-with-storybook/}
  * {@link https://github.com/gatsbyjs/gatsby/issues/26099}
+ * {@link https://github.com/prismicio-community/storybook-addon-gatsby}
  *
  * @param config The incoming Webpack configuration object.
  * @param options Options specific to this addon.
