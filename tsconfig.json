@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "strict": true,
+    "skipLibCheck": true,
+    "outDir": "lib",
+    "target": "ES5",
+    "module": "NodeNext",
+    "declaration": false,
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "jsx": "preserve",
+    "lib": ["esnext", "dom"],
+    "types": ["node"]
+  },
+  "exclude": ["node_modules", "dist", "examples"]
+}
