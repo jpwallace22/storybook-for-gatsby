@@ -1,5 +1,9 @@
 # **Storybook for Gatsby**
 
+![npm](https://img.shields.io/npm/v/storybook-for-gatsby)
+![npm type definitions](https://img.shields.io/npm/types/storybook-for-gatsby)
+![npm bundle size](https://img.shields.io/bundlephobia/minzip/storybook-for-gatsby)
+
 ## **Installation**
 
 Add it to your dev dependencies with your package manager of choice:
@@ -28,23 +32,24 @@ module.exports = {
 - Storybook to be configured for Webpack 5
   ([Storybook with Webpack 5 docs](https://github.com/storybookjs/storybook/blob/next/MIGRATION.md#webpack-5))
 
-## **License**
+## **Contributors**
 
-```
-MIT License
-
-Copyright (c) 2023 Justin Wallace
-
-Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated
-documentation files (the "Software"), to deal in the Software without restriction, including without limitation the
-rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit
-persons to whom the Software is furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all copies or substantial portions of the
-Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE
-WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR
-COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR
-OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
-```
+<table>
+<tr>
+    <td align="center">
+        <a href="https://github.com/jpwallace22">
+            <img src="https://avatars.githubusercontent.com/u/93415734?v=4" width="100;" alt="jpwallace22"/>
+            <br />
+            <sub><b>Justin Wallace</b></sub>
+        </a>
+    </td>
+    <td align="center">
+        <a href="https://github.com/dslovinsky">
+            <img src="https://avatars.githubusercontent.com/u/65476034?v=4" width="100;" alt="dslovinsky"/>
+            <br />
+            <sub><b>Daniel Slovinsky</b></sub>
+        </a>
+    </td>
+    
+<tr>
+</table>
