@@ -26,7 +26,7 @@ module.exports = {
 
 - Gatsby v4 or above
 - Storybook to be configured for Webpack 5
-  ([Storybook with Webpack 5 docs](https://gist.github.com/shilman/8856ea1786dcd247139b47b270912324))
+  ([Storybook with Webpack 5 docs](https://github.com/storybookjs/storybook/blob/next/MIGRATION.md#webpack-5))
 
 ## **License**
 
