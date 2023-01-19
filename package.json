@@ -1,6 +1,6 @@
 {
   "name": "storybook-for-g",
-  "version": "0.0.10",
+  "version": "1.0.1",
   "description": "Storybook Plugin for Gatsby",
   "files": [
     "lib"
@@ -20,19 +20,17 @@
   },
   "devDependencies": {
     "@storybook/addon-actions": "^6.5.15",
-    "@types/react": "^18.0.27",
+    "babel-plugin-remove-graphql-queries": "^5.4.0",
     "eslint": "^8.32.0",
     "eslint-config-prettier": "^8.6.0",
     "eslint-plugin-prettier": "^4.2.1",
     "prettier": "^2.8.3",
-    "react": "^18.2.0",
     "rimraf": "^4.1.1",
     "typescript": "^4.9.4",
     "webpack": "^5.75.0"
   },
   "peerDependencies": {
     "@storybook/addon-actions": "^6.5.15",
-    "gatsby": "^3 || ^4 || ^5",
-    "react": "^16 || ^17 || ^18"
+    "gatsby": "^3 || ^4 || ^5"
   }
 }
