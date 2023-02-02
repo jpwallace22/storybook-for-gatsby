@@ -38,14 +38,14 @@ the useStaticQuery hook anywhere in your codebase you will need to:
 
 The below snippet shows how you can achieve this in your `package.json`
 
-```json5
+```json
 // package.json
 
 {
-  scripts: {
-    'copy-static-queries': 'cp -r ./public/page-data/sq/d ./public/static',
-    'build-storybook': 'gatsby build && yarn copy-static-queries && NODE_ENV=test build-storybook',
-  },
+  "scripts": {
+    "copy-static-queries": "cp -r ./public/page-data/sq/d ./public/static",
+    "build-storybook": "gatsby build && yarn copy-static-queries && NODE_ENV=test build-storybook"
+  }
 }
 ```
 
