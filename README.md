@@ -26,6 +26,29 @@ module.exports = {
 };
 ```
 
+### Deploying to Chromatic
+
+Chromatic is a tool from the makers of Storybook that automates gathering UI feedback, visual testing, and
+documentation. Due to the way it reads information from the UI, it requires some extra steps to deploy. If you are using
+the useStaticQuery hook anywhere in your codebase you will need to:
+
+- Run a production build
+- Copy all files from your static queries
+- Build Storybook in a 'test' `NODE_ENV`
+
+The below snippet shows how you can achieve this in your `package.json`
+
+```json5
+// package.json
+
+{
+  scripts: {
+    'copy-static-queries': 'cp -r ./public/page-data/sq/d ./public/static',
+    'build-storybook': 'gatsby build && yarn copy-static-queries && NODE_ENV=test build-storybook',
+  },
+}
+```
+
 ## **Limitations**
 
 - Gatsby v4 or above
