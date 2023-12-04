@@ -54,6 +54,7 @@ The below snippet shows how you can achieve this in your `package.json`
 - Gatsby v4 or above
 - Storybook to be configured for Webpack 5
   ([Storybook with Webpack 5 docs](https://github.com/storybookjs/storybook/blob/next/MIGRATION.md#webpack-5))
+- Not tested on Storybook 7 (not even sure if its needed)
 
 ## **Contributors**
 

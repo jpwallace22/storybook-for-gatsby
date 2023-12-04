@@ -1,13 +1,14 @@
 {
   "name": "storybook-for-gatsby",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Storybook Plugin for Gatsby",
   "files": [
     "lib"
   ],
   "main": "./lib/cjs/index.js",
   "module": "./lib/esm/index.js",
-  "author": "Webstacks",
+  "author": "jpwallace22",
+  "repository": "jpwallace22/storybook-for-gatsby",
   "license": "MIT",
   "scripts": {
     "build": "rimraf lib && yarn build:cjs && yarn build:esm",
